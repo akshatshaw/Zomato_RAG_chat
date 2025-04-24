@@ -1,0 +1,14 @@
+langchain
+langchain-huggingface
+langchain-mongodb 
+langchain-chroma 
+langchain-cli 
+langchain-community 
+langchain-core 
+langchain-text-splitters 
+jq 
+pymongo
+pandas
+sentence-transformers
+uuid
+nltk
