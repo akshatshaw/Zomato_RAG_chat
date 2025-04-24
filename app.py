@@ -41,7 +41,7 @@ with gr.Blocks() as demo:
     session_state = gr.State({"session_id": None})
     
     # Create the chatbot interface
-    chatbot = gr.Chatbot(height=100)
+    chatbot = gr.Chatbot(height=350)
     msg = gr.Textbox(label="Your Question", placeholder="Ask about restaurant menus...")
     
     # Clear button

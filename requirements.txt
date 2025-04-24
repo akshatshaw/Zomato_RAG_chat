@@ -12,3 +12,6 @@ pandas
 sentence-transformers
 uuid
 nltk
+einops
+huggingface_hub[hf_xet]
+gradio
