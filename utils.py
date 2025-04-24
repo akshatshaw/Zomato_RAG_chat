@@ -150,5 +150,5 @@ def query_with_memory(query, llm, session_id="default_session"):
     
     # Save the interaction to memory
     memory.save_context({"input": query}, {"output": answer})
-    
+    answer = answer.split("Answer:")[-1]
     return answer
